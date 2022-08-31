@@ -1,0 +1,227 @@
+.solution-section {
+    /* background: #ffffff url(../images/solution-bg.png) no-repeat center top;
+    background-size: cover; */
+    color: #2F2E2E;
+    padding-bottom: 50px;
+    padding-bottom: 5rem;
+}
+
+.solution-section__header {
+    padding: 33px 0px;
+    padding: 3.3rem 0px;
+    width: 100%;
+    /* height: 15.5rem; */
+}
+
+.solution-section__title img {
+    width: 231px;
+    height: 52px;
+    width: 23.1rem;
+    height: 5.2rem;
+}
+
+.solution-header__bar {
+    width: 155px;
+    width: 15.5rem;
+    margin: 10px auto;
+}
+
+.solution-section__title {
+    position: relative;
+    align-items: center;
+}
+
+.solution-section__title::after {
+    content: '';
+    background-image: url(../images/wipe.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 54px;
+    height: 154px;
+    width: 5.4rem;
+    height: 15.4rem;
+    position: absolute;
+    top: -33px;
+    right: -25px;
+    top: -3.3rem;
+    right: -2.5rem;
+}
+
+.solution__title {
+    text-align: center;
+}
+
+.solution-section__body {
+    /* width: 100%; */
+    background: #ffffff url(../images/about-bg1.png) no-repeat center bottom;
+    background-size: cover;
+    padding: 10rem 0;
+}
+
+.solution__main {
+    max-width: 732px;
+    margin: -30px auto -70px;
+}
+
+.solution__main__wipe img {
+    width: 238px;
+    height: 684px;
+    width: 23.8rem;
+    height: 68.4rem;
+    transform: rotate(15deg);
+}
+
+.solution__main__text {
+    width: 60%;
+    padding: 10px;
+    font-size: 15px;
+    font-size: 1.5rem;
+}
+
+.solution__main__text {
+    transform: translate(0%, -20%);
+}
+
+.solution-content__bar {
+    width: 184px;
+    width: 18.4rem;
+}
+
+.solution-content__title {
+    position: relative;
+}
+
+.solution-content__title::after {
+    content: '';
+    background-image: url(../images/star.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 69px;
+    height: 69px;
+    width: 6.9rem;
+    height: 6.9rem;
+    position: absolute;
+    top: -10px;
+    right: -125px;
+    top: -1rem;
+    right: -12.5rem;
+}
+
+.solution-content__body .pair {
+    width: 642px;
+    width: 64.2rem;
+    margin: auto;
+}
+
+.sani img {
+    width: 234px;
+    height: 234px;
+    width: 23.4rem;
+    height: 23.4rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.clean img {
+    width: 198px;
+    height: 198px;
+    width: 19.8rem;
+    height: 19.8rem;
+    border-radius: 50%;
+    align-self: flex-end;
+    overflow: hidden;
+}
+
+.cook {
+    transform: translate(0%, -20%);
+}
+
+.cook img {
+    width: 255px;
+    height: 255px;
+    width: 25.5rem;
+    height: 25.5rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.solution-content__body div {
+    position: relative;
+}
+
+.sani::after {
+    content: 'sanitizing';
+    position: absolute;
+    font-size: 28px;
+    font-size: 2.8rem;
+    bottom: -30px;
+    right: 60px;
+    bottom: -3rem;
+    right: 6rem;
+}
+
+.clean::after {
+    content: 'cleaning';
+    position: absolute;
+    font-size: 28px;
+    font-size: 2.8rem;
+    bottom: -30px;
+    right: 45px;
+    bottom: -3rem;
+    right: 4.5rem;
+}
+
+.cook::after {
+    content: 'cooking';
+    position: absolute;
+    font-size: 28px;
+    font-size: 2.8rem;
+    bottom: 7px;
+    right: 155px;
+    bottom: 0.7rem;
+    right: 15.5rem;
+}
+
+.solution__button {
+    position: relative;
+}
+
+.solution__button::before {
+    content: '';
+    background-image: url(../images/star.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 76px;
+    height: 76px;
+    width: 7.6rem;
+    height: 7.6rem;
+    position: absolute;
+    top: -50px;
+    left: -120px;
+    top: -5rem;
+    left: -12rem;
+}
+
+@media(min-width:0px) and (max-width:575px) {
+    .solution__main__wipe img {
+        transform: rotate(0deg);
+    }
+}
+
+@media(min-width:576px) and (max-width:767px) {
+    .solution__main__wipe img {
+        transform: rotate(0deg);
+    }
+}
+
+@media(min-width:768px) and (max-width:991px) {
+    .solution__main__wipe img {
+        transform: rotate(0deg);
+    }
+}
+
+@media(min-width:992px) and (max-width:1279px) {
+    .solution__main__wipe img {
+        transform: rotate(0deg);
+    }
+}

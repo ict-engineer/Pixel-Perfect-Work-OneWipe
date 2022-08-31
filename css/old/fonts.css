@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'YuGo-Bold';
+    src: url('../fonts/YuGo-Bold.eot');
+    src: url('../fonts/YuGo-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/YuGo-Bold.woff2') format('woff2'),
+        url('../fonts/YuGo-Bold.woff') format('woff'),
+        url('../fonts/YuGo-Bold.ttf') format('truetype'),
+        url('../fonts/YuGo-Bold.svg#YuGo-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'YuGo-Medium';
+    src: url('../fonts/YuGo-Medium.eot');
+    src: url('../fonts/YuGo-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/YuGo-Medium.woff2') format('woff2'),
+        url('../fonts/YuGo-Medium.woff') format('woff'),
+        url('../fonts/YuGo-Medium.ttf') format('truetype'),
+        url('../fonts/YuGo-Medium.svg#YuGo-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+

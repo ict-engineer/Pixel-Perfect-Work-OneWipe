@@ -1,0 +1,324 @@
+.onewipe-section__header {
+    height: 44px;
+}
+
+.onewipe-body-wrap {
+    background: #ffffff url(../images/onewipe-bg.jpg) no-repeat center top;
+    background-size: cover;
+    padding-top: 130px;
+    padding-top: 13rem;
+}
+
+.onewipe-body-wrap>div {
+    position: relative;
+}
+
+.onewipe-body__top::before {
+    content: '';
+    background-image: url(../images/logo_blue.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 316px;
+    height: 72px;
+    width: 31.6rem;
+    height: 7.2rem;
+    position: absolute;
+    top: -60px;
+    left: -190px;
+    top: -6rem;
+    left: -19rem;
+}
+
+.onewipe-body__top::after {
+    content: '';
+    background-image: url(../images/water.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 116px;
+    height: 116px;
+    width: 11.6rem;
+    height: 11.6rem;
+    position: absolute;
+    top: -40px;
+    right: -130px;
+    top: -4rem;
+    right: -13rem;
+}
+
+.onewipe-body__center::after {
+    content: '';
+    background-image: url(../images/circle.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 434px;
+    height: 428px;
+    width: 43.4rem;
+    height: 42.8rem;
+    position: absolute;
+    top: 25px;
+    right: -90px;
+    top: 2.5rem;
+    right: -9rem;
+}
+
+.onewipe-body__top {
+    padding: 30px 0px;
+    padding: 3rem 0px;
+}
+
+.onewipe-body__center {
+    padding: 190px 0px;
+    padding: 19rem 0px;
+}
+
+.onewipe-body__bottom {
+    /* width: 972px; */
+    padding: 8rem 0px;
+    /* margin: auto; */
+}
+
+.formCheckbox {
+    flex-direction: column;
+}
+
+.onewipe__bar {
+    align-self: center;
+    width: 167px;
+    width: 16.7rem;
+}
+
+.onewipe-body__bottom-text {
+    text-align: left;
+    width: 472px;
+    height: 348px;
+    width: 47.2rem;
+    height: 34.8rem;
+    background-color: white;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+.onewipe-body__bottom-text label {
+    align-self: flex-start;
+}
+
+.onewipe-body__bottom-image {
+    width: 477px;
+    height: 278px;
+    width: 47.7rem;
+    height: 27.8rem;
+    transform: translate(-9%, 42%);
+}
+
+.onewipe-body__bottom-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.onewipe-body__bottom-image::before {
+    content: "";
+    background-image: url(../images/star.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 45px;
+    height: 45px;
+    width: 4.5rem;
+    height: 4.5rem;
+    position: absolute;
+    top: 25px;
+    left: 50px;
+    top: 2.5rem;
+    left: 5rem;
+    transform: rotate(90deg);
+}
+
+.onewipe-body__bottom-image::after {
+    content: "";
+    background-image: url(../images/wipe_cloud.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 166px;
+    height: 166px;
+    width: 16.6rem;
+    height: 16.6rem;
+    position: absolute;
+    top: -115px;
+    right: -50px;
+    top: -11.5rem;
+    right: -5rem;
+}
+
+.blink {
+    width: 6.7rem;
+}
+
+.onewipe-body__bottom-text .font-41 {
+    color: #D92F7E;
+}
+
+.onewipe-body__bottom-text .font-41 span {
+    position: relative;
+}
+
+.onewipe-body__bottom-text .font-41 span::after {
+    content: '•';
+    font-size: 35px;
+    font-size: 3.5rem;
+    color: #D20161;
+    position: absolute;
+    top: -40px;
+    left: 15px;
+    top: -4rem;
+    left: 1.5rem;
+}
+
+.formCheckbox div {
+    position: relative;
+}
+
+.formCheckbox div.check::before {
+    content: '';
+    background-image: url(../images/check.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 30px;
+    height: 30px;
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    top: 5px;
+    left: -40px;
+    top: 0.5rem;
+    left: -4rem;
+}
+
+
+/* 785 */
+
+.c-formCheckbox label {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 45px;
+    cursor: pointer;
+}
+
+
+/* 826 */
+
+.c-formCheckbox label:before {
+    content: "";
+}
+
+
+/* 798 */
+
+.c-formCheckbox label:after,
+.c-formCheckbox label:before {
+    position: absolute;
+    top: -5px;
+    left: 0;
+    border: 3px solid #eee;
+    border-radius: 8px;
+    background: #f7f7f7;
+    display: block;
+    box-sizing: border-box;
+    width: 30px;
+    height: 30px;
+}
+
+
+/* 793 */
+
+.c-formCheckbox label:before {
+    content: "";
+}
+
+.c-formCheckbox label::after {
+    content: "✔";
+}
+
+
+/* 816 */
+
+.c-formCheckbox label:after {
+    border: none;
+    background: none;
+    font-weight: 700;
+    line-height: 30px;
+    color: hsla(0, 0%, 100%, 0);
+    text-align: center;
+    transition: color .2s ease-out;
+}
+
+
+/* 798 */
+
+.c-formCheckbox label:after,
+.c-formCheckbox label:before {
+    position: absolute;
+    top: -5px;
+    left: 0;
+    border: 3px solid #eee;
+    border-radius: 8px;
+    background: #f7f7f7;
+    display: block;
+    box-sizing: border-box;
+    width: 30px;
+    height: 30px;
+}
+
+@media(min-width:0px) and (max-width:575px) {
+    .onewipe-body__bottom {
+        flex-direction: column;
+        align-items: center;
+    }
+    .onewipe-body__bottom-image {
+        transform: translate(-20%, 15%);
+    }
+    .onewipe-body__bottom-image::after {
+        top: 2.5rem;
+        right: -15rem;
+    }
+}
+
+@media(min-width:576px) and (max-width:767px) {
+    .onewipe-body__bottom {
+        flex-direction: column;
+        align-items: center;
+    }
+    .onewipe-body__bottom-image {
+        transform: translate(-20%, 15%);
+    }
+    .onewipe-body__bottom-image::after {
+        top: 2.5rem;
+        right: -15rem;
+    }
+}
+
+@media(min-width:768px) and (max-width:991px) {
+    .onewipe-body__bottom {
+        flex-direction: column;
+        align-items: center;
+    }
+    .onewipe-body__bottom-image {
+        transform: translate(-20%, 15%);
+    }
+    .onewipe-body__bottom-image::after {
+        top: 2.5rem;
+        right: -15rem;
+    }
+}
+
+@media(min-width:992px) and (max-width:1279px) {
+    .onewipe-body__bottom {
+        flex-direction: column;
+        align-items: center;
+    }
+    .onewipe-body__bottom-image {
+        transform: translate(-20%, 15%);
+    }
+    .onewipe-body__bottom-image::after {
+        top: 2.5rem;
+        right: -15rem;
+    }
+}

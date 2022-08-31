@@ -1,0 +1,103 @@
+.header-banner-wrapper {
+    /* height: 853px; */
+    background-image: url(../images/top-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    overflow: visible;
+}
+
+.header-top-hp {
+    padding: 28px 7px;
+}
+
+.header-banner {
+    justify-content: center;
+    color: #01AED2;
+    transform: translate(0%, 10%);
+}
+
+.header-banner__text h1 {
+    font-family: 'Kokonor', serif;
+    font-size: 11.8rem;
+    font-size: 118px;
+}
+
+.header-curve {
+    width: 100%;
+    transform: translate(0%, 10%);
+}
+
+.header-banner__text h2 {
+    font-size: 6.9rem;
+    font-size: 69px;
+    font-weight: 700;
+}
+
+.header-banner__image {
+    transform: rotate(14deg);
+}
+
+.header-banner__image img {
+    width: 265px;
+    height: 760px;
+}
+
+@media(min-width:0px) and (max-width:575px) {
+    .header-banner__image img {
+        width: 140px;
+        height: 400px;
+    }
+    .header-banner__text h1 {
+        font-size: 6.0rem;
+        font-size: 60px;
+    }
+    .header-banner__text h2 {
+        font-size: 6.9rem;
+        font-size: 35px;
+    }
+}
+
+@media(min-width:576px) and (max-width:767px) {
+    .header-banner__image img {
+        width: 171px;
+        height: 490px;
+    }
+    .header-banner__text h1 {
+        font-size: 7.5rem;
+        font-size: 75px;
+    }
+    .header-banner__text h2 {
+        font-size: 6.9rem;
+        font-size: 44px;
+    }
+}
+
+@media(min-width:768px) and (max-width:991px) {
+    .header-banner__image img {
+        width: 202px;
+        height: 580px;
+    }
+    .header-banner__text h1 {
+        font-size: 8.9rem;
+        font-size: 89px;
+    }
+    .header-banner__text h2 {
+        font-size: 6.9rem;
+        font-size: 52px;
+    }
+}
+
+@media(min-width:992px) and (max-width:1279px) {
+    .header-banner__image img {
+        width: 234px;
+        height: 670px;
+    }
+    .header-banner__text h1 {
+        font-size: 10.3rem;
+        font-size: 103px;
+    }
+    .header-banner__text h2 {
+        font-size: 6.1rem;
+        font-size: 61px;
+    }
+}

@@ -1,0 +1,233 @@
+div.introduce {
+    padding: 48px 0px;
+    color: #2F2E2E;
+}
+
+.introduce__title img {
+    width: 195px;
+    height: 45px;
+}
+
+.introduce__video {
+    position: relative;
+}
+
+.introduce__title p {
+    font-size: 2.9rem;
+    font-size: 29px;
+}
+
+.introduce__bar {
+    width: 20.2rem;
+    margin: 1rem;
+}
+
+.introduce__video video {
+    margin: 2.3rem 0px;
+    width: 484px;
+    height: 279px;
+}
+
+.introduce__video span {
+    margin: 2.3rem 0px;
+    position: relative;
+    text-align: center;
+}
+
+.introduce__video::before {
+    content: "";
+    position: absolute;
+    background-image: url(../images/top-cloud-left.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 20rem;
+    height: 20rem;
+    /* width: 198px;
+    height: 198px; */
+    top: -40px;
+    left: -150px;
+    top: -4rem;
+    left: -15rem;
+    z-index: 100;
+}
+
+.introduce__video::after {
+    content: "";
+    position: absolute;
+    background-image: url(../images/top-cloud-right.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 22.9rem;
+    height: 15.2rem;
+    /* width: 152px;
+    height: 229px; */
+    top: -35px;
+    right: -180px;
+    top: -3.5rem;
+    right: -18rem;
+    z-index: 100;
+}
+
+
+/* .introduce__video-left {
+    transform: translate(100%);
+    z-index: 120;
+} */
+
+.introduce__video-left {
+    font-size: 19px;
+    font-size: 1.9rem;
+    z-index: 120;
+}
+
+.introduce__video-right {
+    font-size: 17px;
+    font-size: 1.7rem;
+    z-index: 120;
+}
+
+.introduce__button {
+    text-align: center;
+    padding: 5px;
+}
+
+.introduce__button img {
+    width: 319px;
+    height: 67px;
+}
+
+@media(min-width:0px) and (max-width:575px) {
+    .introduce__title img {
+        width: 98px;
+        height: 22px;
+    }
+    .introduce__title p {
+        font-size: 1.5rem;
+        font-size: 15px;
+    }
+    .middle-bar-blue {
+        width: 202px;
+    }
+    .introduce__video video {
+        width: 217px;
+        height: 125px;
+    }
+    .introduce__button img {
+        width: 210px;
+        height: 44px;
+    }
+    .introduce__video-left::before {
+        width: 100px;
+        height: 100px;
+        top: 0px;
+        left: 0px;
+    }
+    .introduce__video-right::after {
+        width: 77px;
+        height: 116px;
+        top: 0px;
+        right: 0px;
+    }
+}
+
+@media(min-width:576px) and (max-width:767px) {
+    .introduce__title img {
+        width: 122px;
+        height: 28px;
+    }
+    .introduce__title p {
+        font-size: 1.9rem;
+        font-size: 19px;
+    }
+    .middle-bar-blue {
+        width: 126px;
+    }
+    .introduce__video video {
+        width: 283px;
+        height: 164px;
+    }
+    .introduce__button img {
+        width: 237px;
+        height: 50px;
+    }
+    .introduce__video-left::before {
+        width: 124px;
+        height: 124px;
+        top: -10px;
+        left: -10px;
+    }
+    .introduce__video-right::after {
+        width: 96px;
+        height: 144px;
+        top: -20px;
+        right: 0px;
+    }
+}
+
+@media(min-width:768px) and (max-width:991px) {
+    .introduce__title img {
+        width: 147px;
+        height: 34px;
+    }
+    .introduce__title p {
+        font-size: 2.2rem;
+        font-size: 22px;
+    }
+    .middle-bar-blue {
+        width: 152px;
+    }
+    .introduce__video video {
+        width: 351px;
+        height: 202px;
+    }
+    .introduce__button img {
+        width: 264px;
+        height: 55px;
+    }
+    .introduce__video-left::before {
+        width: 149px;
+        height: 149px;
+        top: -20px;
+        left: -20px;
+    }
+    .introduce__video-right::after {
+        width: 115px;
+        height: 172px;
+        top: -40px;
+        right: 0px;
+    }
+}
+
+@media(min-width:992px) and (max-width:1279px) {
+    .introduce__title img {
+        width: 171px;
+        height: 39px;
+    }
+    .introduce__title p {
+        font-size: 2.6rem;
+        font-size: 26px;
+    }
+    .middle-bar-blue {
+        width: 176px;
+    }
+    .introduce__video video {
+        width: 417px;
+        height: 241px;
+    }
+    .introduce__button img {
+        width: 291px;
+        height: 61px;
+    }
+    .introduce__video-left::before {
+        width: 173px;
+        height: 173px;
+        top: -30px;
+        left: -30px;
+    }
+    .introduce__video-right::after {
+        width: 133px;
+        height: 200px;
+        top: -60px;
+        right: 0px;
+    }
+}

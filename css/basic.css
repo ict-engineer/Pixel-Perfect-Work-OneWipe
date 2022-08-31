@@ -1,0 +1,226 @@
+.d-flex {
+    display: flex;
+}
+
+.j-b {
+    display: flex;
+    justify-content: space-between;
+}
+
+.j-c {
+    display: flex;
+    justify-content: center;
+}
+
+.j-a {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.t-c {
+    text-align: center;
+}
+
+.d-flex-c {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0px auto;
+}
+
+.wrapper {
+    margin: 0px auto;
+    overflow-x: hidden;
+}
+
+.middle-bar-blue {
+    /* background-color: #01AED2; */
+    border: 1px solid #01AED2;
+    /* height: 2px; */
+}
+
+.thin-bar-blue {
+    border: 0.5px solid #01AED2;
+}
+
+.middle-bar-white {
+    border: 1px solid white;
+}
+
+.thin-bar-white {
+    border: 0.5px solid white;
+}
+
+.header-blue {
+    padding: 2.5rem 0px 1.8rem;
+    background-color: #01AED2;
+    color: white;
+}
+
+.font-12 {
+    font-size: 12px;
+    font-size: 1.2rem;
+}
+
+.font-14 {
+    font-size: 14px;
+    font-size: 1.4rem;
+}
+
+.font-18 {
+    font-size: 18px;
+    font-size: 1.8rem;
+}
+
+.font-20 {
+    font-size: 20px;
+    font-size: 2rem;
+}
+
+.font-21 {
+    font-size: 21px;
+    font-size: 2.1rem;
+}
+
+.font-22 {
+    font-size: 22px;
+    font-size: 2.2rem;
+}
+
+.font-23 {
+    font-size: 23px;
+    font-size: 2.3rem;
+}
+
+.font-24 {
+    font-size: 24px;
+    font-size: 2.4rem;
+}
+
+.font-25 {
+    font-size: 25px;
+    font-size: 2.5rem;
+}
+
+.font-26 {
+    font-size: 26px;
+    font-size: 2.6rem;
+}
+
+.font-27 {
+    font-size: 27px;
+    font-size: 2.7rem;
+}
+
+.font-28 {
+    font-size: 28px;
+    font-size: 2.8rem;
+}
+
+.font-29 {
+    font-size: 29px;
+    font-size: 2.9rem;
+}
+
+.font-30 {
+    font-size: 30px;
+    font-size: 3.0rem;
+}
+
+.font-31 {
+    font-size: 31px;
+    font-size: 3.1rem;
+}
+
+.font-33 {
+    font-size: 33px;
+    font-size: 3.3rem;
+}
+
+.font-34 {
+    font-size: 34px;
+    font-size: 3.4rem;
+}
+
+.font-36 {
+    font-size: 36px;
+    font-size: 3.6rem;
+}
+
+.font-38 {
+    font-size: 38px;
+    font-size: 3.8rem;
+}
+
+.font-40 {
+    font-size: 40px;
+    font-size: 4.0rem;
+}
+
+.font-41 {
+    font-size: 41px;
+    font-size: 4.1rem;
+}
+
+.font-45 {
+    font-size: 45px;
+    font-size: 4.5rem;
+}
+
+.font-46 {
+    font-size: 46px;
+    font-size: 4.6rem;
+}
+
+.font-47 {
+    font-size: 47px;
+    font-size: 4.7rem;
+}
+
+.font-49 {
+    font-size: 49px;
+    font-size: 4.9rem;
+}
+
+.font-53 {
+    font-size: 53px;
+    font-size: 5.3rem;
+}
+
+.font-61 {
+    font-size: 61px;
+    font-size: 6.1rem;
+}
+
+.font-73 {
+    font-size: 73px;
+    font-size: 7.3rem;
+}
+
+.font-96 {
+    font-size: 96px;
+    font-size: 9.6rem;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: #01AED2;
+}

@@ -1,0 +1,33 @@
+.news-main-btn-hp {
+    padding: 40px 0 0 0;
+    text-align: right;
+}
+
+.news-main-btn-hp a span {
+    margin-right: 10px;
+    border-bottom: solid 1px #5EAD3C;
+}
+
+.news-main-btn-hp .common-btn-hp {
+    background-color: transparent;
+    border-width: 0;
+}
+
+.news-main-btn-hp .common-btn-hp:hover {
+    color: #3f3c3c;
+}
+
+.news-main-btn-hp .common-btn-hp:hover span {
+    border-color: #3f3c3c !important;
+}
+
+.advantage-info-2-right-hp {
+    display: inline-block;
+    vertical-align: bottom;
+    width: 500px;
+    margin-left: 60px;
+}
+
+.service-box-hp:hover {
+    filter: brightness(0.8);
+}

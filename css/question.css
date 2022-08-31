@@ -1,0 +1,38 @@
+.question-header__bar {
+    width: 169px;
+    width: 16.9rem;
+}
+
+.question-section__body {
+    height: 1000px;
+    height: 100rem;
+    background: #F7F7F7 url(../images/question_woman_think.png) no-repeat bottom center;
+    background-size: 75%;
+}
+
+@media(min-width:0px) and (max-width:575px) {
+    .question-section__body {
+        height: 55rem;
+        background-size: 90%;
+    }
+}
+
+@media(min-width:576px) and (max-width:767px) {
+    .question-section__body {
+        height: 65.2rem;
+        background-size: 85%;
+    }
+}
+
+@media(min-width:768px) and (max-width:991px) {
+    .question-section__body {
+        height: 75.2rem;
+        background-size: 80%;
+    }
+}
+
+@media(min-width:992px) and (max-width:1279px) {
+    .question-section__body {
+        height: 85.2rem;
+    }
+}
